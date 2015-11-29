@@ -1,0 +1,25 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++
+           Welcome to Village Telco
+
+                     O-----O
+           O        / \   / \         0
+          / \      /   \ /   \       / \ 
+     O---O   O----O     O     O-----O   O---O
+          \ /      \   / \   /       \ / 
+           O        \ /   \ /         O
+                     O-----O 
+  _______                     ________        __
+ |       |.-----.-----.-----.|  |  |  |.----.|  |_
+ |   -   ||  _  |  -__|     ||  |  |  ||   _||   _|
+ |_______||   __|_____|__|__||________||__|  |____|
+          |__| W I R E L E S S   F R E E D O M
+ 
+ 
+DISTRIB_DESCRIPTION='OpenWrt Chaos Calmer 15.05' DISTRIB_REVISION='r46943' Dragino
+
+Village Telco - Small Enterprise Campus Network
+
+Version:     SECN-4.0-MP02-G1-Alpha5 MP02
+Build date:  2015-10-07-12:21
+GitHub:      vt-firmware secn_build-002-1-g396e53bff5
+ 

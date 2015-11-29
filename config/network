@@ -1,0 +1,35 @@
+
+config interface 'loopback'
+	option ifname 'lo'
+	option proto 'static'
+	option ipaddr '127.0.0.1'
+	option netmask '255.0.0.0'
+
+config interface 'lan'
+	option type 'bridge'
+	option ifname 'eth0'
+	option proto 'static'
+	option netmask '255.255.255.0'
+	option dns '8.8.8.8'
+	option ipaddr '192.168.2.3'
+	option gateway '192.168.2.4'
+
+config interface 'mesh_0'
+	option proto 'static'
+	option netmask '255.255.255.0'
+	option mtu '1532'
+	option ipaddr '192.168.2.3'
+
+config interface
+	option ifname 'bat0'
+
+config interface 'wan'
+	option proto 'dhcp'
+
+config interface 'wwan'
+	option proto 'dhcp'
+
+config interface 'stabridge'
+	option proto 'relay'
+	option network 'wwan'
+

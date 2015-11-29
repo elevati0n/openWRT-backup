@@ -1,0 +1,18 @@
+
+# This is a simple chat script based on the one provided by Sierra Wireless
+# for CDMA connections.
+ABORT  	BUSY
+ABORT 	'NO CARRIER'
+ABORT   ERROR
+ABORT 	'NO DIAL TONE'
+ABORT 	'NO ANSWER'
+ABORT 	DELAYED
+REPORT	CONNECT
+TIMEOUT	10
+''      AT
+OK      ATZ
+SAY     'Calling CDMA/EVDO'
+TIMEOUT 30
+OK      ATD*99#
+CONNECT ''
+
